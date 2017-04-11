@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_margin="16dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Why Currents?"
+        android:textStyle="bold"
+        android:textAllCaps="true"
+        android:layout_marginBottom="8dp"
+        android:textColor="#3F9A8E"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Lorem ipsum dolor sit amet, an nemore debitis interpretaris sit. Ex cetero fastidii interesset vim, et vix accusata inimicus. Eam cu euismod atomorum vulputate, in quo simul tincidunt argumentum. Vis tale erat splendide ex."
+        android:layout_marginBottom="16dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:textColor="#3F9A8E"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:textAllCaps="true"
+        android:textStyle="bold"
+        android:text="What is location tracker?"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_marginBottom="16dp"
+        android:layout_height="wrap_content"
+        android:text="Lorem ipsum dolor sit amet, an nemore debitis interpretaris sit."/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:textColor="#3F9A8E"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:textStyle="bold"
+        android:textAllCaps="true"
+        android:text="More Questions?"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Contact us at xxxxx@cornell.edu"/>
+
+</LinearLayout>

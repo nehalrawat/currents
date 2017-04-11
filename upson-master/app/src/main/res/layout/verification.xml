@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <?xml version="1.0" encoding="utf-8"?>
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#3f9a8e">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="300px"
+            android:background="#ffffff"
+            android:orientation="vertical">
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:text="Sign Up"
+                android:layout_height="wrap_content" />
+
+            <Button
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:text="Log In"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="48px"
+                android:textColor="#ffffff"
+                android:textSize="30px"
+                android:text="Almost there!"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="48px"
+                android:textColor="#ffffff"
+                android:textSize="30px"
+                android:layout_marginRight="48px"
+                android:text="Please check your Cornell email and enter the verification code below to activate your Currents account."/>
+
+
+
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dp"
+                android:layout_marginTop="48px"
+                android:textColorHint="#8cf2f3f3"
+                android:layout_marginStart="48px"
+                android:hint="Enter the verification code" />
+
+            <Button
+                android:id="@+id/button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:backgroundTint="#ffffff"
+                android:layout_marginTop="48px"
+                android:textColor="#3F9A8E"
+                android:text="Log In" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>
