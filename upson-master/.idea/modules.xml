@@ -4,7 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
       <module fileurl="file://$PROJECT_DIR$/postgresql-9.4-1206-jdbc4/postgresql-9.4-1206-jdbc4.iml" filepath="$PROJECT_DIR$/postgresql-9.4-1206-jdbc4/postgresql-9.4-1206-jdbc4.iml" />
-      <module fileurl="file://$PROJECT_DIR$/upson.iml" filepath="$PROJECT_DIR$/upson.iml" />
+      <module fileurl="file://$PROJECT_DIR$/upson-master.iml" filepath="$PROJECT_DIR$/upson-master.iml" />
     </modules>
   </component>
 </project>
